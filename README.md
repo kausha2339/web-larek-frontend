@@ -193,6 +193,7 @@ class OrderResultShow extends Modal {
 
 set title - установить заголовок
 set description - установить описание
+
 Основные события
 products:changed - изменение списка товаров
 basket:add-product - добавление товара в корзину
