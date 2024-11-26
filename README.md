@@ -152,7 +152,7 @@ class Modal extends Component<IModalData> {
 - set isButtonActive - активна ли кнопка отправки 
 - set errors - установка текстов ошибок 
  
-### Класс BasketShow - отображение корзины в модальном окне, расширяет Modal 
+### Класс Basket - отображение корзины в модальном окне, расширяет Modal 
  
  class Basket extends Modal { 
    private basket: IProduct[] - список продуктов в корзине 
@@ -162,7 +162,7 @@ class Modal extends Component<IModalData> {
  - set basket - установить список продуктов в корзине 
 -  set total - установить общую сумму продуктов в корзине 
  
-### Класс ProductShow - отображение продукта на главной странице: 
+### Класс Product - отображение продукта на главной странице: 
   class Product extends Component<IProduct>{ 
     private product: TProduct 
   } 
