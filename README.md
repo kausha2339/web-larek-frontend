@@ -168,12 +168,12 @@ class Modal extends Component<IModalData> {
   } 
  
 ### Класс ProductModal - отображение продукта в модальном окне: 
-    class ProductModalShow extends Modal { 
+    class ProductModal extends Modal { 
        private product: IProduct 
    } 
  
-### Класс OrderFormS - отображение формы заказа: 
-  class OrderShow extends Modal { 
+### Класс OrderForm - отображение формы заказа: 
+  class Order extends Modal { 
    private orderFields: Record<keyof IOrder, [value:string, error:string]> | null 
    private buttonActive: Boolean 
  } 
