@@ -53,7 +53,9 @@ export class Modal extends Component<IModalData> {
 	close(): void {
 		this.toggleClass(this.element, 'modal_active', false);
 		document.removeEventListener('keydown', this.handleKeyDown);
+		this.content = null;
 		this.events.emit('modal:close');
+	
 	}
 
 	render(data: IModalData): HTMLElement {
