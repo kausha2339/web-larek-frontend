@@ -48,7 +48,7 @@ export class Form<IOrder> extends Component<IForm> {
 		this.setText(this._errors, value);
 	}
 
-	close() {
+	resetForm() {
 		this._form.reset();
 	}
 
