@@ -53,7 +53,7 @@ export class Basket extends Component<IBasket> {
             );
             this.toggleButton(true);
         }
-    }
+	}
 
 	set total(total: number) {
 		this.setText(this._total, `${total}` + ' синапсисов');
